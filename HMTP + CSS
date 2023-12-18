@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Quiz 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #7FFFD4; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 20vh;
+        }
+
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            color: #fff;
+            background-color: #333;
+        }
+
+        .main-content {
+            display: flex;
+            width: 100%;
+        }
+
+        .left-side {
+            flex: 15%;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .left-side a {
+            display: block;
+            margin-bottom: 10px;
+            background-color: #fff;
+            color: #333; /* สีดำ */
+            text-decoration: none;
+            border: 1px solid #d3d3d3; /* เพิ่มเส้นขอบลิ้งค์ */
+            padding: 8px;
+        }
+
+        .left-side a:hover {
+            background-color: #d3d3d3;
+        }
+
+        .center-box {
+            flex: 65%;
+            background-color: #d3d3d3; /* สีเทา */
+            padding: 20px;
+        }
+
+        .right-side {
+            flex: 15%;
+            height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .circle-container {
+            margin-top: 20px;
+        }
+
+        .circle img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Front-End Quiz 1</h1>
+    </header>
+
+    <div class="main-content">
+        <div class="left-side">
+            <a href="https://www.google.com" target="_blank">Google </a>
+            <a href="https://www.youtube.com" target="_blank">Youtube </a>
+            <a href="https://www.facebook.com" target="_blank">Facebook </a>
+            <a href="https://chat.openai.com/" target="_blank">ChatGPT </a>
+        </div>
+
+        <div class="center-box">
+             <p>
+		<font size = "6"> ชื่อ นายกิตติพศ อินทรีย์ 
+		</font> 
+	</p>
+		<p><font size = "6"> รหัสนิสิตร 66022400
+		</font>
+	</p>
+        </div>
+
+        <div class="right-side">
+            <div class="circle-container">
+                <div class="circle">
+                    <a> <img src="1700828226575172286149022402903.jpg" alt="รูป" width="50" height="50"></a> </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
